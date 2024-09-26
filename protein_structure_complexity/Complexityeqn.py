@@ -129,7 +129,7 @@ def quantify_complexity(sequence):
 
     # Giving the user options to add weights to each parameter to control results
     entropy_weight = 1.0
-    transition_weight = 0.7
+    transition_weight = 0.3
     std_weight = 0.1  # Adjusted for standard deviation
     
     complexity_score = (entropy_weight * entropy + 
